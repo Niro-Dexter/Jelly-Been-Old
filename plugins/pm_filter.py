@@ -60,7 +60,7 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"SenuInfinity#{file_id}")]
                     )
         else:
-            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDCbFhXydSlKHUdq_PtqwwiCHGHrcKzgACpQIAAmWmOFbh25Uvix1D9SEE')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDCglhX8nhGb_JwzPayS6VR_EiHtTrtAACAgQAAm3ZAVf7beBY1GZk3CEE')
             return
 
         if not btn:
