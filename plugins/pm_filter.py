@@ -60,7 +60,7 @@ async def filter(client, message):
                     [InlineKeyboardButton(text=f"{filename}",callback_data=f"SenuInfinity#{file_id}")]
                     )
         else:
-            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDCglhX8nhGb_JwzPayS6VR_EiHtTrtAACAgQAAm3ZAVf7beBY1GZk3CEE')
+            await client.send_sticker(chat_id=message.from_user.id, sticker='CAACAgUAAxkBAAEDEFFhZYgoPsAm4-SdkRhAuerjELUdRwACHQQAAk4JMFcplwTD8l_5SCEE')
             return
 
         if not btn:
@@ -278,7 +278,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     InlineKeyboardButton('🔝', url=f'{TUTORIAL}')
                 ]
                 ]
-            await query.message.edit(text=f"<b>🔘 ඔයාගෙ Request මේකට එවන්න 👉 @Netflixlkchat .\n\n[ 🔥 NFLK 🔥 ]\n\n♻️ Active ✅\n@NetflixLK_Bot\n\nCredit Goes to : <a href='https://t.me/senuinfinity'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Devlop Chat : <a href='{TUTORIAL}'>Click here</a>\n📋NFLK Chat : <a href='https://t.me/netflixlkchat'>NFLK Chat</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text=f"<b>🔘 ඔයාගෙ Request මේකට එවන්න 👉 @Netflixlkchat .\n\n[ 🔥 NFLK 🔥 ]\n\n♻️ Active ✅\n@NetflixLK_Bot\n\nCredit Goes to : <a href='https://t.me/senuinfinit'>Senu Gamer Boy</a>\n📑Language : <code>Python3</code>\n📚Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\n🗯Devlop Chat : <a href='{TUTORIAL}'>Click here</a>\n📋NFLK Chat : <a href='https://t.me/netflixlkchat'>NFLK Chat</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
